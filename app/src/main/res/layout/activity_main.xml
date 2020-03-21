@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp"
+    android:orientation="vertical"
+
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:padding="20dp"
+        android:background="@drawable/back"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Welcome to CakeMania"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:padding="20dp"
+            android:textColor="@android:color/black"
+            />
+
+        <ImageView
+            android:layout_marginTop="30dp"
+            android:id="@+id/imgview"
+            android:layout_below="@id/tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/looo"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            />
+
+        <Button
+           android:layout_marginTop="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:text="Checkmenu"
+            android:textSize="20sp"
+            android:id="@+id/buttonid"
+            android:layout_below="@id/imgview"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+
+
+            />
+    </RelativeLayout>
+
+
+</RelativeLayout>

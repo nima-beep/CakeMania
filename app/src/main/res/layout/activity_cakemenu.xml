@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".cakemenuActivity">
+    >
+
+<TableLayout
+    android:layout_alignParentTop="true"
+
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentRight="true"
+    android:paddingRight="10dp"
+    android:paddingLeft="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="2"
+    android:background="@drawable/back">
+
+
+    <TableRow
+
+
+        android:id="@+id/titlerowid"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        >
+
+        <TextView
+            android:textColor="@android:color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_span="8"
+
+            android:background="#C4FFDE07"
+            android:text="Cake Mania Cakes"
+            android:textSize="30sp"
+            android:textStyle="italic"/>
+
+
+    </TableRow>
+
+    <TableRow
+
+        android:id="@+id/hearderid"
+        android:background="#C4FFDE07"
+        >
+
+        <TextView
+            android:textColor="@android:color/black"
+            android:layout_width="72dp"
+            android:layout_height="match_parent"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Serial"
+
+            android:textSize="20dp"
+            android:textStyle="italic"/>
+
+        <TextView
+            android:textColor="@android:color/black"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="Cake name"
+
+        android:textSize="20dp"
+        android:textStyle="italic"/>
+
+        <TextView
+            android:textColor="@android:color/black"
+        android:layout_width="72dp"
+        android:layout_height="match_parent"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="Flavoure"
+
+        android:textSize="20dp"
+        android:textStyle="italic"/>
+        <TextView
+            android:textColor="@android:color/black"
+            android:layout_width="72dp"
+            android:layout_height="match_parent"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Price"
+
+            android:textSize="20dp"
+            android:textStyle="italic"></TextView>
+
+    </TableRow>
+
+
+    <TableRow
+
+        android:id="@+id/serial1id"
+        android:background="#C4FFDE07"
+        >
+
+        <TextView
+            android:layout_width="72dp"
+            android:layout_height="match_parent"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="1"
+
+            android:textSize="20dp"
+            android:textStyle="italic"></TextView><TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="Black Forest"
+
+        android:textSize="20dp"
+        android:textStyle="italic"></TextView><TextView
+        android:layout_width="72dp"
+        android:layout_height="match_parent"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="Chocklate"
+
+        android:textSize="20dp"
+        android:textStyle="italic"></TextView>
+        <TextView
+            android:layout_width="72dp"
+            android:layout_height="match_parent"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="1200=/"
+
+            android:textSize="20dp"
+            android:textStyle="italic"></TextView>
+
+    </TableRow>
+    <TableRow
+
+        android:id="@+id/serial2id"
+        android:background="#C4FFDE07"
+        >
+
+        <TextView
+            android:layout_width="72dp"
+            android:layout_height="match_parent"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="2"
+
+            android:textSize="20dp"
+            android:textStyle="italic"></TextView><TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="Red Velvet"
+
+        android:textSize="20dp"
+        android:textStyle="italic"></TextView><TextView
+        android:layout_width="72dp"
+        android:layout_height="match_parent"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="Cherry"
+
+        android:textSize="20dp"
+        android:textStyle="italic"></TextView>
+        <TextView
+            android:layout_width="72dp"
+            android:layout_height="match_parent"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="1150=/"
+
+            android:textSize="20dp"
+            android:textStyle="italic"></TextView>
+
+    </TableRow>
+    <TableRow
+
+        android:id="@+id/serial3id"
+        android:background="#C4FFDE07"
+        >
+
+        <TextView
+            android:layout_width="72dp"
+            android:layout_height="match_parent"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="3"
+
+            android:textSize="20dp"
+            android:textStyle="italic"></TextView><TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="Oreo Cheese"
+
+        android:textSize="20dp"
+        android:textStyle="italic"></TextView><TextView
+        android:layout_width="72dp"
+        android:layout_height="match_parent"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="Oreo Biscuits"
+
+        android:textSize="20dp"
+        android:textStyle="italic"></TextView>
+        <TextView
+            android:layout_width="72dp"
+            android:layout_height="match_parent"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="1600=/"
+
+            android:textSize="20dp"
+            android:textStyle="italic"></TextView>
+
+    </TableRow>
+    <TableRow
+
+        android:id="@+id/serial4id"
+        android:background="#C4FFDE07"
+        >
+
+        <TextView
+            android:layout_width="72dp"
+            android:layout_height="match_parent"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="4"
+
+            android:textSize="20dp"
+            android:textStyle="italic"></TextView><TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="Blueberry Cake"
+
+
+        android:textSize="20dp"
+        android:textStyle="italic"></TextView><TextView
+        android:layout_width="72dp"
+        android:layout_height="match_parent"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="Blueberry"
+
+        android:textSize="20dp"
+        android:textStyle="italic"></TextView>
+        <TextView
+            android:layout_width="72dp"
+            android:layout_height="match_parent"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="1700=/"
+
+            android:textSize="20dp"
+            android:textStyle="italic"></TextView>
+
+    </TableRow>
+
+
+
+
+        <Button
+            android:id="@+id/coffeemenubutton"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:textSize="30dp"
+            android:text="Coffee Menu"
+            android:textAllCaps="false"
+            />
+
+
+</TableLayout>
+
+</RelativeLayout>

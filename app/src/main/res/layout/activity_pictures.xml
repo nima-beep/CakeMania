@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".picturesActivity">
+
+    <ImageView
+        android:id="@+id/black_forestid"
+        android:src="@drawable/black_forest"
+        android:scaleType="fitXY"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    </ImageView>
+    <ImageView
+
+        android:id="@+id/redvelvetid"
+        android:src="@drawable/redvelvet"
+        android:scaleType="fitXY"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/oreocheesecakeid"
+        android:src="@drawable/oreocheesecake"
+        android:scaleType="fitXY"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/blurberrycakeid"
+        android:src="@drawable/blurberrycake"
+        android:scaleType="fitXY"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/hotchockletid"
+        android:src="@drawable/hotchocklet"
+        android:scaleType="fitXY"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    </ImageView>
+
+    <ImageView
+
+        android:id="@+id/coldcoffeeid"
+        android:src="@drawable/coldcoffee"
+        android:scaleType="fitXY"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+    </ImageView>
+
+    <ImageView
+
+    android:id="@+id/cappachinoid"
+    android:src="@drawable/cappuccino"
+    android:scaleType="fitXY"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+</ImageView>
+
+    <ImageView
+
+        android:id="@+id/latteid"
+        android:src="@drawable/latte"
+        android:scaleType="fitXY"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+    </ImageView>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="bottom"
+            android:layout_weight="1"
+
+            >
+
+            <Button
+                android:id="@+id/exitid"
+                android:layout_marginLeft="150dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:text="Exit">
+
+
+            </Button>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</FrameLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+
+
+    >
+<AbsoluteLayout
+    android:background="@drawable/back"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".ABC">
+
+
+
+    <TextView
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="90dp"
+        android:gravity="center"
+        android:layout_x="0dp"
+        android:layout_y="60dp"
+        android:text="Enjoy your food and dont forget to give us feedback"
+        android:textColor="@color/purple"
+        android:textSize="30sp" />
+
+    <ImageView
+
+        android:id="@+id/imgview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv"
+        android:layout_x="0dp"
+        android:layout_y="230dp"
+        android:src="@drawable/looo" />
+
+    <Button
+        android:id="@+id/recapeid"
+        android:layout_width="215dp"
+        android:layout_height="wrap_content"
+        android:layout_x="75dp"
+        android:layout_y="452dp"
+        android:text="Recape"
+        android:textColor="@android:color/black"
+        android:textSize="30sp"
+
+        />
+</AbsoluteLayout>
+</RelativeLayout>

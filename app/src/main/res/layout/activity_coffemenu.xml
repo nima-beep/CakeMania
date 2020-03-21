@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+
+
+    >
+<TableLayout
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+
+    android:background="@drawable/back"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="2"
+    tools:context=".coffemenuActivity">
+
+
+    <TableRow
+
+
+        android:id="@+id/titlerowid"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        >
+
+        <TextView
+            android:textColor="@android:color/black"
+            android:background="#CDDC39"
+            android:layout_gravity="center"
+            android:layout_span="8"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+
+
+            android:text="Cake Mania Coffees"
+            android:textSize="22sp"
+            android:textStyle="italic">
+
+
+        </TextView>
+
+    </TableRow>
+
+    <TableRow
+
+        android:id="@+id/hearderid"
+        android:background="#CDDC39"
+        >
+
+        <TextView
+            android:textColor="@android:color/black"
+            android:layout_width="72dp"
+            android:layout_height="match_parent"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Serial"
+
+            android:textSize="20dp"
+            android:textStyle="italic"></TextView><TextView
+        android:textColor="@android:color/black"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="Coffee name"
+
+        android:textSize="20dp"
+        android:textStyle="italic"></TextView><TextView
+        android:textColor="@android:color/black"
+        android:layout_width="72dp"
+        android:layout_height="match_parent"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="Flavoure"
+
+        android:textSize="20dp"
+        android:textStyle="italic"></TextView>
+        <TextView
+            android:textColor="@android:color/black"
+            android:layout_width="72dp"
+            android:layout_height="match_parent"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Price"
+
+            android:textSize="20dp"
+            android:textStyle="italic"></TextView>
+
+    </TableRow>
+
+
+    <TableRow
+
+        android:id="@+id/serial1id"
+        android:background="#CDDC39"
+        >
+
+        <TextView
+            android:layout_width="72dp"
+            android:layout_height="match_parent"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="1"
+
+            android:textSize="20dp"
+            android:textStyle="italic"></TextView><TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="Hot Chocolet"
+
+        android:textSize="20dp"
+        android:textStyle="italic"></TextView><TextView
+        android:layout_width="72dp"
+        android:layout_height="match_parent"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="Chocolate"
+
+        android:textSize="20dp"
+        android:textStyle="italic"></TextView>
+        <TextView
+            android:layout_width="72dp"
+            android:layout_height="match_parent"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="350=/"
+
+            android:textSize="20dp"
+            android:textStyle="italic"></TextView>
+
+    </TableRow>
+    <TableRow
+
+        android:id="@+id/serial2id"
+        android:background="#CDDC39"
+        >
+
+        <TextView
+            android:layout_width="72dp"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="2"
+
+            android:textSize="20dp"
+            android:textStyle="italic"></TextView><TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="Cold Coffee"
+
+        android:textSize="20dp"
+        android:textStyle="italic"></TextView><TextView
+        android:layout_width="72dp"
+        android:layout_height="match_parent"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="Coffee beans"
+
+        android:textSize="20dp"
+        android:textStyle="italic"></TextView>
+        <TextView
+            android:layout_width="72dp"
+            android:layout_height="match_parent"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="280=/"
+
+            android:textSize="20dp"
+            android:textStyle="italic"></TextView>
+
+    </TableRow>
+
+
+    <TableRow
+
+        android:id="@+id/serial3id"
+        android:background="#CDDC39"
+        >
+
+        <TextView
+            android:layout_width="72dp"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="3"
+
+            android:textSize="20dp"
+            android:textStyle="italic"></TextView><TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="Cappucino"
+
+        android:textSize="20dp"
+        android:textStyle="italic"></TextView><TextView
+        android:layout_width="72dp"
+        android:layout_height="match_parent"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="Coffee beans"
+
+        android:textSize="20dp"
+        android:textStyle="italic"></TextView>
+        <TextView
+            android:layout_width="72dp"
+            android:layout_height="match_parent"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="300=/"
+
+            android:textSize="20dp"
+            android:textStyle="italic"></TextView>
+
+    </TableRow>
+
+
+
+
+    <TableRow
+
+        android:id="@+id/serial4id"
+        android:background="#CDDC39"
+        >
+
+        <TextView
+            android:layout_width="72dp"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="4"
+
+            android:textSize="20dp"
+            android:textStyle="italic"></TextView><TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="Latte"
+
+        android:textSize="20dp"
+        android:textStyle="italic"></TextView><TextView
+        android:layout_width="72dp"
+        android:layout_height="match_parent"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="whitecreame"
+
+        android:textSize="20dp"
+        android:textStyle="italic"></TextView>
+        <TextView
+            android:layout_width="72dp"
+            android:layout_height="match_parent"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="480=/"
+
+            android:textSize="20dp"
+            android:textStyle="italic"></TextView>
+
+    </TableRow>
+
+    <Button
+            android:layout_marginTop="20dp"
+            android:id="@+id/coffemenubutton"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:textSize="25sp"
+            android:text="click for pictures"/>
+
+</TableLayout>
+
+</RelativeLayout>
