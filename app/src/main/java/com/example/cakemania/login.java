@@ -29,6 +29,7 @@ public class login extends AppCompatActivity {
             public void onClick(View v) {
                 if(Name.getText().toString().equals(name) && Password.getText().toString().equals(pass)){
                     startActivity(new Intent(login.this,MainActivity.class));
+                    finish();
 
                 }else {
                     Toast.makeText(login.this, "Wrong Name or Password", Toast.LENGTH_SHORT).show();

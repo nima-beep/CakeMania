@@ -23,10 +23,18 @@ public class ABC extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(ABC.this,login.class);
                 startActivity(intent);
+                finish();
+
 
             }
         });
 
 
+    }
+
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        finish();
     }
 }

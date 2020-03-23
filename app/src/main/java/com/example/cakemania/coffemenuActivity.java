@@ -23,6 +23,7 @@ public class coffemenuActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(coffemenuActivity.this, picturesActivity.class);
                 startActivity(intent);
+                finish();
 
             }
         });

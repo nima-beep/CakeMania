@@ -12,7 +12,7 @@ public class M extends AppCompatActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         intent=new Intent(M.this,BackgroundService.class);
-        startService(intent);
+       // startService(intent);
         startActivity(new Intent(M.this,login.class));
         finish();
 

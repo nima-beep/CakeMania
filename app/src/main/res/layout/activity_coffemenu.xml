@@ -287,7 +287,8 @@
     </TableRow>
 
     <Button
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="40dp"
+
             android:id="@+id/coffemenubutton"
             android:layout_width="wrap_content"
             android:layout_height="60dp"
@@ -301,7 +302,7 @@
         android:src="@drawable/looo"
         android:layout_width="match_parent"
         android:layout_height="180dp"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="35dp"
 
 
         />

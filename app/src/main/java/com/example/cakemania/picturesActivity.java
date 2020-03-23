@@ -43,6 +43,7 @@ exit.setOnClickListener(new View.OnClickListener() {
     public void onClick(View v) {
         Intent intent = new Intent(picturesActivity.this, ABC.class);
         startActivity(intent);
+        finish();
 
 
     }
