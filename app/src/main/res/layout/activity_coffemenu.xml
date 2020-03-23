@@ -4,18 +4,17 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
+    android:layout_width="wrap_content"
     android:layout_height="match_parent"
     android:padding="20dp"
 
 
     >
 <TableLayout
-    android:paddingLeft="10dp"
-    android:paddingRight="10dp"
 
+    android:padding="10dp"
     android:background="@drawable/back"
-    android:layout_width="match_parent"
+    android:layout_width="wrap_content"
     android:layout_height="match_parent"
     android:stretchColumns="2"
     tools:context=".coffemenuActivity">
@@ -30,6 +29,8 @@
         >
 
         <TextView
+
+
             android:textColor="@android:color/black"
             android:background="#CDDC39"
             android:layout_gravity="center"
@@ -54,39 +55,46 @@
         >
 
         <TextView
+            android:layout_gravity="center"
+            android:gravity="center"
             android:textColor="@android:color/black"
-            android:layout_width="72dp"
+            android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:paddingLeft="10dp"
-            android:paddingRight="10dp"
+
             android:text="Serial"
 
             android:textSize="20dp"
-            android:textStyle="italic"></TextView><TextView
-        android:textColor="@android:color/black"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:paddingLeft="10dp"
-        android:paddingRight="10dp"
-        android:text="Coffee name"
+            android:textStyle="italic"></TextView>
 
-        android:textSize="20dp"
-        android:textStyle="italic"></TextView><TextView
-        android:textColor="@android:color/black"
-        android:layout_width="72dp"
-        android:layout_height="match_parent"
-        android:paddingLeft="10dp"
-        android:paddingRight="10dp"
-        android:text="Flavoure"
-
-        android:textSize="20dp"
-        android:textStyle="italic"></TextView>
         <TextView
-            android:textColor="@android:color/black"
-            android:layout_width="72dp"
+            android:paddingLeft="5dp"
+            android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:paddingLeft="10dp"
-            android:paddingRight="10dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Coffee name"
+            android:textColor="@android:color/black"
+
+            android:textSize="20dp"
+            android:textStyle="italic"></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Flavoure"
+            android:textColor="@android:color/black"
+
+            android:textSize="20dp"
+            android:textStyle="italic"></TextView>
+        <TextView
+
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+
             android:text="Price"
 
             android:textSize="20dp"
@@ -102,37 +110,39 @@
         >
 
         <TextView
-            android:layout_width="72dp"
+            android:textColor="@android:color/black"
+            android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:paddingLeft="10dp"
-            android:paddingRight="10dp"
+             android:layout_gravity="center"
+            android:gravity="center"
             android:text="1"
 
             android:textSize="20dp"
             android:textStyle="italic"></TextView><TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:paddingLeft="10dp"
-        android:paddingRight="10dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:paddingLeft="5dp"
         android:text="Hot Chocolet"
-
+        android:textColor="@android:color/black"
         android:textSize="20dp"
         android:textStyle="italic"></TextView><TextView
-        android:layout_width="72dp"
+        android:layout_width="wrap_content"
         android:layout_height="match_parent"
-        android:paddingLeft="10dp"
-        android:paddingRight="10dp"
+        android:layout_gravity="center"
+        android:gravity="center"
         android:text="Chocolate"
-
+        android:textColor="@android:color/black"
         android:textSize="20dp"
         android:textStyle="italic"></TextView>
         <TextView
-            android:layout_width="72dp"
+            android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:paddingLeft="10dp"
-            android:paddingRight="10dp"
+            android:layout_gravity="center"
+            android:gravity="center"
             android:text="350=/"
-
+            android:textColor="@android:color/black"
             android:textSize="20dp"
             android:textStyle="italic"></TextView>
 
@@ -144,37 +154,37 @@
         >
 
         <TextView
-            android:layout_width="72dp"
-            android:layout_height="wrap_content"
-            android:paddingLeft="10dp"
-            android:paddingRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textColor="@android:color/black"
             android:text="2"
-
+            android:layout_gravity="center"
+            android:gravity="center"
             android:textSize="20dp"
             android:textStyle="italic"></TextView><TextView
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="match_parent"
-        android:paddingLeft="10dp"
-        android:paddingRight="10dp"
+        android:paddingLeft="5dp"
         android:text="Cold Coffee"
-
+        android:textColor="@android:color/black"
         android:textSize="20dp"
         android:textStyle="italic"></TextView><TextView
-        android:layout_width="72dp"
+        android:layout_width="wrap_content"
         android:layout_height="match_parent"
-        android:paddingLeft="10dp"
-        android:paddingRight="10dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:paddingLeft="5dp"
         android:text="Coffee beans"
-
+        android:textColor="@android:color/black"
         android:textSize="20dp"
         android:textStyle="italic"></TextView>
         <TextView
-            android:layout_width="72dp"
+            android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:paddingLeft="10dp"
-            android:paddingRight="10dp"
+            android:layout_gravity="center"
+            android:gravity="center"
             android:text="280=/"
-
+            android:textColor="@android:color/black"
             android:textSize="20dp"
             android:textStyle="italic"></TextView>
 
@@ -188,37 +198,39 @@
         >
 
         <TextView
-            android:layout_width="72dp"
-            android:layout_height="wrap_content"
-            android:paddingLeft="10dp"
-            android:paddingRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textColor="@android:color/black"
             android:text="3"
-
+            android:layout_gravity="center"
+            android:gravity="center"
             android:textSize="20dp"
             android:textStyle="italic"></TextView><TextView
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="match_parent"
-        android:paddingLeft="10dp"
-        android:paddingRight="10dp"
+        android:paddingLeft="5dp"
         android:text="Cappucino"
-
+        android:textColor="@android:color/black"
         android:textSize="20dp"
         android:textStyle="italic"></TextView><TextView
-        android:layout_width="72dp"
+        android:layout_width="wrap_content"
         android:layout_height="match_parent"
-        android:paddingLeft="10dp"
-        android:paddingRight="10dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:paddingLeft="5dp"
         android:text="Coffee beans"
-
+        android:textColor="@android:color/black"
         android:textSize="20dp"
         android:textStyle="italic"></TextView>
         <TextView
-            android:layout_width="72dp"
+            android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:paddingLeft="10dp"
             android:paddingRight="10dp"
             android:text="300=/"
-
+            android:textColor="@android:color/black"
+            android:layout_gravity="center"
+            android:gravity="center"
             android:textSize="20dp"
             android:textStyle="italic"></TextView>
 
@@ -234,37 +246,41 @@
         >
 
         <TextView
-            android:layout_width="72dp"
-            android:layout_height="wrap_content"
-            android:paddingLeft="10dp"
-            android:paddingRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textColor="@android:color/black"
             android:text="4"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textStyle="italic"></TextView>
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textColor="@android:color/black"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Latte"
             android:textSize="20dp"
             android:textStyle="italic"></TextView><TextView
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="match_parent"
-        android:paddingLeft="10dp"
-        android:paddingRight="10dp"
-        android:text="Latte"
-
-        android:textSize="20dp"
-        android:textStyle="italic"></TextView><TextView
-        android:layout_width="72dp"
-        android:layout_height="match_parent"
-        android:paddingLeft="10dp"
-        android:paddingRight="10dp"
+        android:layout_gravity="center"
+        android:gravity="center"
         android:text="whitecreame"
-
+        android:paddingLeft="5dp"
+        android:textColor="@android:color/black"
         android:textSize="20dp"
         android:textStyle="italic"></TextView>
         <TextView
-            android:layout_width="72dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:paddingLeft="10dp"
-            android:paddingRight="10dp"
-            android:text="480=/"
 
+            android:text="480=/"
+            android:textColor="@android:color/black"
             android:textSize="20dp"
             android:textStyle="italic"></TextView>
 
@@ -278,6 +294,17 @@
             android:layout_gravity="center"
             android:textSize="25sp"
             android:text="click for pictures"/>
+
+
+
+    <ImageView
+        android:src="@drawable/looo"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_marginTop="50dp"
+
+
+        />
 
 </TableLayout>
 

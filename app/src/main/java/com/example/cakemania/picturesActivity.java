@@ -44,6 +44,7 @@ exit.setOnClickListener(new View.OnClickListener() {
         Intent intent = new Intent(picturesActivity.this, ABC.class);
         startActivity(intent);
 
+
     }
 });
 

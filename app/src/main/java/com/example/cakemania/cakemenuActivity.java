@@ -24,6 +24,7 @@ public class cakemenuActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent( cakemenuActivity.this, coffemenuActivity.class);
                 startActivity(intent);
+
             }
         });
 

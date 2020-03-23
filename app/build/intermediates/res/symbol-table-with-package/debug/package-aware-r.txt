@@ -795,6 +795,7 @@ id icon
 id icon_group
 id ifRoom
 id image
+id imageView
 id imgview
 id info
 id invisible
@@ -805,9 +806,11 @@ id line1
 id line3
 id listMode
 id list_item
+id login
 id message
 id middle
 id multiply
+id name
 id never
 id none
 id normal
@@ -820,6 +823,7 @@ id oreocheesecakeid
 id packed
 id parent
 id parentPanel
+id password
 id percent
 id progress_circular
 id progress_horizontal
@@ -877,6 +881,8 @@ id text2
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textView
+id textView2
+id textView3
 id time
 id title
 id titleDividerNoCustom
@@ -935,6 +941,7 @@ layout abc_tooltip
 layout activity_abc
 layout activity_cakemenu
 layout activity_coffemenu
+layout activity_login
 layout activity_main
 layout activity_pictures
 layout custom_dialog
@@ -950,6 +957,7 @@ layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
 mipmap ic_launcher
 mipmap ic_launcher_round
+raw theme
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description
