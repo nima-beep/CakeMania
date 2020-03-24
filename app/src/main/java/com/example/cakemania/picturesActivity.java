@@ -169,4 +169,9 @@ exit.setOnClickListener(new View.OnClickListener() {
         }
 
     }
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        stopService(new Intent(picturesActivity.this,BackgroundService.class));
+    }
 }

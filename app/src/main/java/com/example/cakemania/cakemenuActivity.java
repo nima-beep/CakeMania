@@ -32,5 +32,10 @@ public class cakemenuActivity extends AppCompatActivity {
 
 
     }
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        stopService(new Intent(cakemenuActivity.this,BackgroundService.class));
+    }
     }
 

@@ -31,4 +31,9 @@ public class coffemenuActivity extends AppCompatActivity {
 
 
     }
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        stopService(new Intent(coffemenuActivity.this,BackgroundService.class));
+    }
 }

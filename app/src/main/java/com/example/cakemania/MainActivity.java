@@ -32,7 +32,11 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
-
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        stopService(new Intent(MainActivity.this,BackgroundService.class));
+    }
 
 }
 

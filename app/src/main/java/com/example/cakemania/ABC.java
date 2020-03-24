@@ -35,6 +35,7 @@ public class ABC extends AppCompatActivity {
     @Override
     public void onBackPressed() {
         super.onBackPressed();
+        stopService(new Intent(ABC.this,BackgroundService.class));
         finish();
     }
 }

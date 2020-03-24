@@ -39,4 +39,9 @@ public class login extends AppCompatActivity {
     }
 
 
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        stopService(new Intent(login.this,BackgroundService.class));
+    }
 }
